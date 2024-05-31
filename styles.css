@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.imageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.imageCell {
+    width: 200px;
+    text-align: center;
+}
+
+.imageCell img {
+    max-width: 100%;
+    height: auto;
+}
+
+.textCell {
+    width: 600px;
+    text-align: left;
+}
